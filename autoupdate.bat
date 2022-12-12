@@ -1,5 +1,5 @@
 @echo off
-cd "%temp%"
+cd "%userprofile%"
 git clone https://github.com/Velox0/test.git
 cd test
 git fetch origin main
